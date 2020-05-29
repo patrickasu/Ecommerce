@@ -14,7 +14,7 @@ class WraistWatchSeeder extends Seeder
     {
         DB::table('products')->insert([
             'cover_img' => '/img/re1.png',
-            'name' => 'Running',
+            'name' => 'Rockland',
             'description' => 'Mens Rugged Workwear Rockland-boomed',
             'price' => '280',
             'updated_at' => Carbon::now(),
@@ -38,7 +38,7 @@ class WraistWatchSeeder extends Seeder
         ]);
         DB::table('products')->insert([
             'cover_img' => '/img/cl5.png',
-            'name' => 'Sweatshirt',
+            'name' => 'Windrunner',
             'description' => 'Fleece Badge Of Sport Graphic Hoodies',
             'price' => '210',
             'updated_at' => Carbon::now(),
